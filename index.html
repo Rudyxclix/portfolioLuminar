@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- C S S -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Font awsome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Solway:wght@300;400;500;700;800&display=swap"
+        rel="stylesheet">
+    <!-- Animate Style -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- AOS Scroll Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div id="container">
+        <!-- Navbar -->
+        <nav>
+            <img class="logo" src="https://1000logos.net/wp-content/uploads/2017/05/Pepsi-logo.png" alt="No image">
+            <ul>
+                <li class="list-items"><a class="links" href="#home">Home</a></li>
+                <li class="list-items"><a class="links" href="#about">About</a></li>
+                <li class="list-items"><a class="links" href="#skills">Skill</a></li>
+                <li class="list-items"><a class="links" href="#contacts">Contact</a></li>
+            </ul>
+        </nav>
+        <!-- Home -->
+        <section id="home">
+            <div class="home-content">
+                <h1 class="animate__animated animate__fadeInBottomLeft" id="username">I'am Maria <span
+                        id="lname">Joe</span></h1>
+                <p id="user-details">This is my official portfolio website to describe all <br>
+                    Details and work experience in Web developmet</p>
+                <a id="download" href="./images/KarthikCV.pdf" download>Download CV</a>
+            </div>
+            <div class="home-img">
+                <!-- shape -->
+                <img id="shape" class="group1" src="./images/bg-final.png" alt="shape">
+                <!-- girl -->
+                <img id="girl" class="group1" src="./images/businesslady-final.png" alt="girl">
+            </div>
+        </section>
+        <!-- About -->
+        <section id="about">
+            <div class="about-head">
+                <h2 class="mainHead">About Me</h2>
+                <span class="subHead">Introduction</span>
+            </div>
+            <div class="about-body">
+                <div data-aos="fade-right" class="about-image">
+                    <img class="img1"
+                        src="https://img.freepik.com/free-vector/office-people-discuss-about-business-growth-described-showing-graph_1150-40338.jpg?t=st=1728450666~exp=1728454266~hmac=63d3e7d3dadfbb333193ac77564acfb850213075fdbc3b3c185fd61c4d09ca5a&w=1060"
+                        alt="">
+                </div>
+                <div class="about-content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio accusantium ut explicabo ea
+                        tempora iste accusamus tenetur in necessitatibus corrupti, aut illo laborum, vero nihil labore
+                        ducimus eum, cum quibusdam!</p><br>
+
+                    <div class="information">
+                        <div class="infoBox">
+                            <i class="fa-solid fa-user"></i>
+                            <span>Maia Joe</span>
+                        </div>
+                        <div class="infoBox">
+                            <i class="fa-solid fa-phone"></i>
+                            <span>9635678197</span>
+                        </div>
+                        <div class="infoBox">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>mariajoe@gmail.com</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Skill -->
+        <section id="skills">
+            <div class="about-head">
+                <h2 class="mainHead">Skills</h2>
+                <span class="subHead">My Skills</span>
+            </div>
+            <div class="skillContents">
+                <div class="progresBars">
+                    <!-- progresbar -->
+                    <div class="bars">
+                        <h3 class="barHead">HTML</h3>
+                        <span class="barPercent">84%</span>
+                        <div class="baseBar">
+                            <div data-aos="zoom-in-right" class="htmlBar baseBar"></div>
+                        </div>
+                    </div>
+                    <div class="bars">
+                        <h3 class="barHead">CSS</h3>
+                        <span class="barPercent">79%</span>
+                        <div class="baseBar">
+                            <div data-aos="zoom-in-right" class="cssBar baseBar"></div>
+                        </div>
+                    </div>
+                    <div class="bars">
+                        <h3 class="barHead">JS</h3>
+                        <span class="barPercent">70%</span>
+                        <div class="baseBar">
+                            <div data-aos="zoom-in-right" class="jsBar baseBar"></div>
+                        </div>
+                    </div>
+                    <div class="bars">
+                        <h3 class="barHead">REACT</h3>
+                        <span class="barPercent">85%</span>
+                        <div class="baseBar">
+                            <div data-aos="zoom-in-right" class="reactBar baseBar"></div>
+                        </div>
+                    </div>
+                </div>
+                <div data-aos="fade-left" class="skillImage">
+                    <img width="80%" class="img2"
+                        src="https://www.mckinsey.com/~/media/mckinsey/mckinsey%20quarterly/the%20five%20fifty/soft-skills-1536x1536.png"
+                        alt="">
+                </div>
+            </div>
+        </section>
+        <!-- contact -->
+        <section id="contacts">
+            <div class="about-head">
+                <h2 class="mainHead">Contacts</h2>
+                <span class="subHead">My Contacts</span>
+            </div>
+            <div class="iconCollections">
+                <!-- linkedIn -->
+                <div class="icons">
+                    <a href=""><i class="fa-brands fa-linkedin-in brands"></i></a>
+                </div>
+                <!-- gitHub -->
+                <div class="icons">
+                    <a href=""><i class="fa-brands fa-github brands"></i></a>
+                </div>
+                <!-- twitter -->
+                <div class="icons">
+                    <a href=""><i class="fa-brands fa-twitter brands"></i></a>
+                </div>
+                <!-- whatsApp -->
+                <div class="icons">
+                    <a href=""><i class="fa-brands fa-whatsapp brands"></i></a>
+                </div>
+                <!-- instagram -->
+                <div class="icons">
+                    <a href=""><i class="fa-brands fa-instagram brands"></i></a>
+                </div>
+                <!-- faceBook -->
+                <div class="icons">
+                    <a href=""><i class="fa-brands fa-facebook brands"></i></a>
+                </div>
+            </div>
+        </section>
+        <!-- footer -->
+        <footer>
+            <p id="copyRight">&copy; My Portfolio Website -June 2024, All Rights Reserved to &reg; Maria Joe</p>
+            <div class="icons upArrow ">
+                <a href="#container"><i class="fa-solid fa-chevron-up brands"></i></a>
+            </div>
+        </footer>
+    </div>
+</body>
+<!-- AOS Script -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+
+</html>
